@@ -18,6 +18,10 @@
     },
     "license": "MIT",
     "dependencies": {
+        "@sinclair/typebox": "^0.24.36",
+        "ajv": "^8.11.0",
+        "ajv-errors": "^3.0.0",
+        "ajv-formats": "^2.1.1",
         "dotenv": "^16.0.2",
         "express": "4.18.1",
         "mongoose": "6.5.4"
@@ -35,6 +39,7 @@
         "prettier": "2.7.1"
     },
     "imports": {
+        "#Lib/*": "./src/lib/*",
         "#Config/*": "./src/config/*",
         "#Controllers/*": "./src/controllers/*",
         "#Dto/*": "./src/dto/*",
